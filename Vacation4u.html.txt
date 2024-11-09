@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="sticky-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Our Web Design Company</h1>
+        <p>We create stunning websites that help your business grow.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of web design and development services.</p>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Basic Website</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Advanced Website</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>E-commerce Website</td>
+                <td>$1500</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@webdesigncompany.com</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
